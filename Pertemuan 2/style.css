@@ -1,0 +1,23 @@
+/* *{
+    background-color: antiquewhite;
+} */
+
+/* background-repeat: no-repeat = agar background yang kecil itu tidak terulang */
+body {
+    background-image: url(gambar\ unsika.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+button {
+    padding: 20px;
+    background-color: blue;
+    color: white;
+    border-radius: 15px;
+
+    cursor: pointer;
+}
+button:hover{
+    background-color: blueviolet;
+}
